@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>Travel Landing Page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Travel</h2>
+            <div class="toogle"></div>
+        </header>
+        <video src="nature.mp4" muted loop autoplay></video> 
+        <div class="overlay"></div> 
+        <div class="text">
+            <h2>NEVER SETTLE</h2>
+            <h3>Exploring The World</h3>
+            <p>Nature, the people, and the smell of a new land screams adventure. The world is humungous, and a lifetime wouldn’t be enough to explore it.
+
+                Every city has its specialty, and one can only experience that by traveling to that city and experiencing its air. As part of our journey from birth to death, we ought to feel the freedom that comes with adventures. Exploring quotes and travel quotes have been motivating people for a long time. Travel quotes have a special place in the heart of people. Here are 100 best travel quotes and exploring quotes to let you stop thinking and plan a trip.</p>
+            <a href="#">Explore</a>
+
+        </div>
+        
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Contract</a></li>
+        </ul>
+
+    </div>
+    <script>
+        
+        const menuToggle=document.querySelector('.toggle')
+        const showcase=document.querySelector('.showcase')
+        menuToggle.addEventListenner('click', () =>{
+            menuToggle.classlist.toggle('active')
+            showcase.classlist.toggle('active')
+
+
+        })
+    </script>
+</body>
+</html>
